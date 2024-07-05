@@ -6,6 +6,7 @@ const Formulaire = (props) => {
     const [annee, setAnnee] = useState('');
     const [couleur, setCouleur] = useState('');
 
+
     const onFormSubmit = (event) => {
         event.preventDefault();
         alert(`Vehicule de type ${type} bien ajouté`);
