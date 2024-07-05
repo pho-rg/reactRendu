@@ -1,0 +1,15 @@
+.Vehicule {
+    display: flex;
+    flex-direction: column;
+    background-color: #edf4ff;
+    border-radius: 7px;
+    margin: 2%;
+    padding: 1%;
+    width: 40%;
+    align-items: center;
+}
+
+.vehiculeRow {
+    display: flex;
+    margin-bottom: 1%;
+}
